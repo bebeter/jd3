@@ -89,10 +89,7 @@ def user_agent(url):
         req = urllib2.Request(url,None,req_header)
         #page = urllib2.urlopen(req,None,req_timeout)
         response = urllib2.urlopen(req)
-
         html = response.read()
-        print html.decode('GBK','ignore')
-
         #html = page
     except urllib2.URLError as e:
         print e.message
@@ -127,8 +124,7 @@ def page_loop(pro_id,pro_url):
     page = user_agent(url)
 
 
-
-    fcont=open("d:\\jdpro\\pro\\"+str(pro_id)+".html","a")
+    fcont=open(str(pro_id)+".html","a")
     fcont.write(page)
     fcont.close()
 
@@ -208,10 +204,7 @@ def page_loop(pro_id,pro_url):
     detail_div = doc('img#spec-img')
     print "pro name ",detail_div.attr('alt')
     pname = doc('div.p-name').text()
-
     print "pname" ,pname
-
-
 
     ul_para = doc('ul#parameter-brand')
     pro_txt=[]

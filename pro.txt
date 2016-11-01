@@ -152,7 +152,7 @@ https://item.jd.com/10038328426.html
 https://item.jd.com/1426049149.html
 https://item.jd.com/1469545131.html
 http://item.jd.com/10118721722.html
-http://item.jd.com/10271997395.htmlhttps://search.jd.com/Search?keyword=%E7%9F%B3%E6%96%9B&enc=utf-8&wq=%E7%9F%B3%E6%96%9B&pvid=ntlc2oui.8o37qo
+http://item.jd.com/10271997395.html
 https://item.jd.com/10673173699.html
 https://item.jd.com/10662731577.html
 https://item.jd.com/1643384971.html
@@ -285,3 +285,5 @@ http://item.jd.com/2014270.html
 http://item.jd.com/2014270.html
 http://item.jd.com/2014270.html
 https://item.jd.com/10576716916.html
+http://item.jd.com/10118721722.html
+http://item.jd.com/1606495535.html
