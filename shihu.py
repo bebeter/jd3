@@ -314,8 +314,8 @@ def getProDesc(pro_url):
         return ProImgDesc
 
 
-
-
+def uni(str):
+    return unicode("str",'UTF-8')
 
 
 def tab1(detail1,detail2):
@@ -327,17 +327,17 @@ def tab1(detail1,detail2):
 
 
     pid=detail2.get('pid')
-    pname = detail2.get('pname')#产品名
-    title = detail2.get('title')#标题
+    pname = uni(detail2.get('pname'))#产品名
+    title = uni(detail2.get('title'))#标题
     price = detail2.get('price')#价格
 
-    brand = detail1.get('brand')#品牌
-    dianpu = detail1.get('dianpu')#店铺
+    brand = uni(detail1.get('brand'))#品牌
+    dianpu = uni(detail1.get('dianpu'))#店铺
     weight = detail1.get('weight')#重量
-    pingzhong = detail1.get('pingzhong')#紫皮
-    zhongzhi =  detail1.get('zhongzhi')#种植方式
-    fenlei =  detail1.get('fenlei')#分类  风斗
-    baozhuang = detail1.get('baozhuang')#包装
+    pingzhong = uni(detail1.get('pingzhong'))#紫皮
+    zhongzhi =  uni(detail1.get('zhongzhi'))#种植方式
+    fenlei =  uni(detail1.get('fenlei'))#分类  风斗
+    baozhuang = uni(detail1.get('baozhuang'))#包装
     price2 = detail1.get('price2')
     chandi = detail1.get('chandi')
     mprice = detail1.get('mprice')
